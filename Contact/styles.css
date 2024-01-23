@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: "Weights", sans-serif;
+  }
+  
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Contact/bg.jpg);
+	height: 145vh;
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+}
+
+:root {
+	--white: #a7dbf0;
+	--text-topic: #f4f4f4;
+	--text-center: #1d53c0;
+	--primary-text-clr: #ffffff;
+	--pb-text: #646464;
+  }
+  
+ 
+  body {
+	font-size: 15px;
+	color: var(--white);
+	font-weight: 500 
+  }
+
+  center a {
+	margin: 0 95px;
+	color: var(--white);
+	text-decoration: none; 
+  }
+
+  center a:hover {
+	text-decoration: underline; 
+  }
+
+   i{
+	font-size: 110px;
+	margin: 0 315px;  
+	   
+  }
+
+  h2 {
+	letter-spacing : 2px ;
+	margin:150px;
+	color: var(--text-topic);
+  }
+  
+  h3{
+	font-family: "Weights", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--primary-text-clr);
+	line-height: 100px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: 800 ;
+  }
+  h4{
+	font-size: 15px;
+	color: var(--primary-text-clr);
+	font-weight: 500 ;
+	font-size: 25px;
+	margin: 20px;
+	letter-spacing : 1px ;
+  }
+
+  h6{
+	font-family: "Weights", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--primary-text-clr);
+	font-weight: 700;
+	margin: 40px;
+	font-size: 18px;
+	letter-spacing : 2px ;
+	text-decoration-line: underline;
+    text-decoration-style: double;
+  }
+
+  h1{
+	font-family: "Weights", sans-serif;
+	color: var(--text-topic);
+	font-weight: 700;
+	margin:0 250px;
+	font-size: 25px;
+	letter-spacing : 2px ;
+	line-height: 100px;
+  }
+
+  .resume_center .r_conteact p {
+	display: block;
+	margin: auto;
+	text-align: left;
+  }
+
+  @media only screen and (max-width: 760px) {
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Contact/bg.jpg);
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        min-height: 200px;
+        background-attachment: fixed;
+		height: 110vh;
+    }
+
+    i {
+        font-size: 100px;
+        margin: 0 20px;
+    }
+
+	.fa-brands,
+    .fa-solid {
+    font-size: 60px;
+	margin: 0 50px;
+    }
+
+    .fa-left-long {
+    font-size: 80px;
+     }
+
+  h1 {
+    font-size: 20px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    }
+
+	h3 {
+		font-size: 25px;
+		margin: 0 10px;
+		text-align: center;
+		line-height: 60px;
+		}
+
+  h6 {
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+	line-height: 40px;
+    }
+
+  h1,
+  h6 {
+    word-wrap: break-word;
+     }
+}
+

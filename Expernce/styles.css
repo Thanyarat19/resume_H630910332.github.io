@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: "Weights", sans-serif;
+  }
+  
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Expernce/bg.jpg);
+	height: 235vh;
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+}
+
+:root {
+	--white: #fff;
+	--rleft-bg: #445e96;
+	--text-center: #cbd7ef;
+	--primary-text-clr: #d3d60d;
+	--pb-text: #646464;
+  }
+  
+ 
+  body {
+	font-size: 15px;
+	color: var(--white);
+	font-weight: 500 
+  }
+  .image-container {
+	text-align: center;
+  }
+
+  .image-container img {
+	margin: 0 10px; 
+	margin: 20px;
+  }
+
+  center a {
+	margin: 0 95px;
+	color: var(--white);
+	text-decoration: none; 
+  }
+
+  center a:hover {
+	text-decoration: underline; 
+  }
+
+  i{
+	font-size: 110px; 
+  }
+  
+  h2 {
+	font-family: "Weights", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--primary-text-clr);
+	margin-bottom: 10px;
+	margin: 25px;
+	letter-spacing : 2px ;
+  }
+  
+  h3{
+	font-family: "Weights", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--primary-text-clr);
+	line-height: 75px;
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: 800 ;
+  }
+
+  h4{
+	font-size: 15px;
+	color: var(--white);
+	font-weight: 500 ;
+	font-size: 18px;
+	margin: 20px;
+	letter-spacing : 1px ;
+  }
+  
+  h5{
+	font-family: "Weights", sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	color: var(--white);
+	font-size: 30px;
+	font-weight: 800;
+	margin: 20px;
+	font-size: 15px;
+	letter-spacing : 2px ;
+  }
+
+  h6{
+	font-family: "Weights", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--white);
+	font-weight: 700;
+	margin: 40px;
+	font-size: 18px;
+	letter-spacing : 2px ;
+  }
+
+  h1{
+	font-family: "Weights", sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	color: var(--white);
+	font-weight: 700;
+	margin: 40px;
+	font-size: 18px;
+	letter-spacing : 2px ;
+	text-decoration-line: underline;
+    text-decoration-style: double;
+  }
+
+  .resume_center .r_experience p {
+	display: block;
+	margin: auto;
+	text-align: left;
+  }
+  @media only screen and (max-width: 760px) {
+	body {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	header{
+		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Expernce/bg.jpg);
+		height: 380vh;
+		background-size: cover;
+		background-position: center;
+		min-height: 100px;
+	}
+	
+	h3{
+		font-size: 30px;
+		  line-height: 50px;
+	  }
+
+	h4{
+		font-size: 18px;
+		  line-height: 24px;
+	  }
+
+	.resume {
+		flex-direction: column;
+		width: 100%;
+	}
+  }
